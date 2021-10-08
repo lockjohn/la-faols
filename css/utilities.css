@@ -149,9 +149,23 @@
     height: 100%;
     /* now the grid element takes up 100% of container which has a height of 400px */
 }
+/* .grid-3 {
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* justify-content: start; */
+    /* align-items: stretch; */
+    /* width: 100%; 
+} */
 
-.grid-3 {
-    grid-template-columns: repeat(3, 1fr);
+.grid-3 .card {
+    width: auto;
+    height: auto;
+}
+.grid-3 .flex{
+    justify-content: flex-end;
+    align-items:stretch;
+
+    flex-wrap:wrap;
+
 }
 
 /* margin classes*/
