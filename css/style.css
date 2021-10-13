@@ -56,13 +56,6 @@ img {
     width: 100%;
 }
 
-code,
-pre {
-    background: #333;
-    color: #fff;
-    padding: 10px;
-
-}
 
 /* Navbar */
 .navbar {
@@ -102,6 +95,10 @@ margin: 0 10px;
     font-family: 'yellowtail';
 }
 
+.contact {
+    text-align: center;
+    font-weight: bolder;
+}
 
 /* Showtime */
 .showtime {
@@ -179,20 +176,20 @@ margin: 0 10px;
     position: relative;
     top: 60px;
     /* to use the top feature needs to have a fixed position */
-    height: 350px; 
+    /* height: 350px;  */
     /* this causes the overflow of the form element from it's container, making a scroll bar appear, but we want it to spill over border so we change the showcase grid to overflow visible */
     width: 400px;
-    padding: 40px;
+    padding: 14px;
     z-index: 100;
     animation: slideInFromRight 1s ease-in;
     justify-self: flex-end;    
 }
 
-.showcase-form .form-control {
+/* .showcase-form .form-control {
     margin: 30px 0; 
-}
+} */
 
-.showcase-form input[type='text'],
+/* .showcase-form input[type='text'],
 .showcase-form input[type='email'] {
     border:  0;
     border-bottom:  1px solid #b4becb;
@@ -204,7 +201,7 @@ margin: 0 10px;
 
 .showcase-form input:focus {
     outline: none;
-}
+} */
 
 .showcase::before, 
 .showcase::after {
@@ -212,18 +209,18 @@ margin: 0 10px;
     /* to use these pseudo classes, req this property, but leaving blank */
     position: absolute;
     height: 100px;
-    bottom: -70px;
+    bottom: -90px;
     right: 0;
     left: 0;
     background: var(--light-color);
-    transform: skewY(-2deg);
+    /* transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
     -moz-transform: skewY(-2deg);
-    -ms-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg); */
 }
 
 /* Stats */
-.stats {
+/* .stats {
     padding-top: 100px;  
     animation: slideInFromBottom 1s ease-in;
     background: var(--light-complementary-color);
@@ -241,12 +238,14 @@ margin: 0 10px;
 .stats grid p {
     font-size: 20px;
     font-weight: bold;
-}
+} */
 
 /* cli */
 
 .cli {
     background: var(--primary-color);
+    padding-top: 120px;
+    
 }
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -265,7 +264,8 @@ margin: 0 10px;
 }
 
 .cloud .grid {
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
+    
 }
 
 /* Languages */

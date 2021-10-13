@@ -142,7 +142,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     align-items: center; 
     /* the cross axis needs a height to center  therefore:*/
@@ -163,7 +163,6 @@
 .grid-3 .flex{
     justify-content: flex-end;
     align-items:stretch;
-
     flex-wrap:wrap;
 
 }
