@@ -245,17 +245,14 @@ margin: 0 10px;
 .cli {
     background: var(--primary-color);
     padding-top: 120px;
-    
+    color: whitesmoke;
 }
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
 
-.cli .grid > *:first-child {
-     grid-column: 1 / span 2;
-     grid-row: 1 / span 2;
-}
+
 
 /* Cloud */
 
@@ -300,6 +297,10 @@ margin: 0 10px;
     justify-self: flex-end;
 }
 
+.features-main {
+    background-color: var(--light-complementary-color);
+}
+
 .features-main .card > i {
     margin-right: 20px;
 }
@@ -316,6 +317,9 @@ margin: 0 10px;
 } */
 
 /* Docs */
+.docs-main {
+    background-color: var(--light-complementary-color);
+}
 .docs-main h3 {
     margin: 20px 0;
 }
