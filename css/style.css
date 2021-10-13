@@ -44,7 +44,7 @@ h1, h2 {
     font-weight: 300;
     line-height: 1.2;
     /* 10 on top and bttm margins, zero on left/right */
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 p {
@@ -98,6 +98,8 @@ margin: 0 10px;
 .contact {
     text-align: center;
     font-weight: bolder;
+    color: whitesmoke;
+    background-color: var(--complementary-color);
 }
 
 /* Showtime */
@@ -342,6 +344,7 @@ align-items: flex-start;
 
 
 /* Footer */
+
 .footer img {
     width: 67px;
     height: 67px;
