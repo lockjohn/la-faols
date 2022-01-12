@@ -162,7 +162,7 @@
 }
 .grid-3 .flex{
     justify-content: flex-end;
-    align-items:stretch;
+    /* align-items:stretch; */
     flex-wrap:wrap;
 
 }
