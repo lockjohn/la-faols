@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url("https://use.typekit.net/bef8nsz.css");
 
 /* universal reset with '*' selector, border-box allows changes to padding/margin on elements without effecting the width */
 
 /* defining a variable in the 'root' scope  */
 :root {
     /* --primary-color: #047aed; */
-    --primary-color: #621f69;
-    --secondary-color: #78d7d7;
+    --primary-color: black;
+    --secondary-color: #d2042d;
     --dark-color: #4A164A;
     --light-color: #ECB22E;
     --complementary-color:#BF1D3D;
@@ -92,11 +93,13 @@ margin: 0 10px;
 }
 
 .navbar .logo {
-    font-family: 'yellowtail';
+    font-family: 'abigail';
+    font-style: normal;
+font-weight: 400;
 }
 
 .contact {
-    text-align: center;
+    text-align:center;
     font-weight: bolder;
     color: whitesmoke;
     background-color: var(--complementary-color);
@@ -312,6 +315,7 @@ height: 80px;
   text-align: center;
 }
 
+
 /* Docs */
 .docs-main {
     background-color: var(--light-complementary-color);
@@ -345,6 +349,12 @@ align-items: flex-start;
 }
 .footer .social a {
     margin: 0 10px;
+}
+
+.footer .logo {
+    font-family: 'abigail';
+    font-style: normal;
+font-weight: 400;
 }
 
 /* Animations */
