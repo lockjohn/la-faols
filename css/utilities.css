@@ -183,7 +183,14 @@ img #parent {
     object-fit: contain;
 }
 
+.bg-primary .pedigree {
+    color: var(--light-complementary-color);
+}
 
+.bg-primary .pedigree:hover{
+    color: var(--light-color);
+    border-bottom: 2px var(--light-color) solid;
+}
 
 /* margin classes*/
 
